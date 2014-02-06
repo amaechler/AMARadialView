@@ -13,25 +13,10 @@
 		4F24B80218A426E80041AA04 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4F24B80018A426E80041AA04 /* InfoPlist.strings */; };
 		4F24B80418A426E80041AA04 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F24B80318A426E80041AA04 /* main.m */; };
 		4F24B80818A426E80041AA04 /* AMAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F24B80718A426E80041AA04 /* AMAAppDelegate.m */; };
-		4F24B80B18A426E80041AA04 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F24B80918A426E80041AA04 /* Main.storyboard */; };
 		4F24B80E18A426E80041AA04 /* AMAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F24B80D18A426E80041AA04 /* AMAViewController.m */; };
-		4F24B81018A426E80041AA04 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F24B80F18A426E80041AA04 /* Images.xcassets */; };
-		4F24B81718A426E80041AA04 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F24B81618A426E80041AA04 /* XCTest.framework */; };
-		4F24B81818A426E80041AA04 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F24B7F718A426E80041AA04 /* Foundation.framework */; };
-		4F24B81918A426E80041AA04 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F24B7FB18A426E80041AA04 /* UIKit.framework */; };
-		4F24B82118A426E80041AA04 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4F24B81F18A426E80041AA04 /* InfoPlist.strings */; };
-		4F24B82318A426E80041AA04 /* AMARadialViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F24B82218A426E80041AA04 /* AMARadialViewTests.m */; };
+		4F24B83118A427500041AA04 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F24B82E18A427500041AA04 /* Main.storyboard */; };
+		4F24B83218A427500041AA04 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F24B83018A427500041AA04 /* Images.xcassets */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		4F24B81A18A426E80041AA04 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 4F24B7EC18A426E80041AA04 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 4F24B7F318A426E80041AA04;
-			remoteInfo = AMARadialView;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		4F24B7F418A426E80041AA04 /* AMARadialView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AMARadialView.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,15 +29,11 @@
 		4F24B80518A426E80041AA04 /* AMARadialView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AMARadialView-Prefix.pch"; sourceTree = "<group>"; };
 		4F24B80618A426E80041AA04 /* AMAAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AMAAppDelegate.h; sourceTree = "<group>"; };
 		4F24B80718A426E80041AA04 /* AMAAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AMAAppDelegate.m; sourceTree = "<group>"; };
-		4F24B80A18A426E80041AA04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4F24B80C18A426E80041AA04 /* AMAViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AMAViewController.h; sourceTree = "<group>"; };
 		4F24B80D18A426E80041AA04 /* AMAViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AMAViewController.m; sourceTree = "<group>"; };
-		4F24B80F18A426E80041AA04 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		4F24B81518A426E80041AA04 /* AMARadialViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AMARadialViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F24B81618A426E80041AA04 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		4F24B81E18A426E80041AA04 /* AMARadialViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AMARadialViewTests-Info.plist"; sourceTree = "<group>"; };
-		4F24B82018A426E80041AA04 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		4F24B82218A426E80041AA04 /* AMARadialViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AMARadialViewTests.m; sourceTree = "<group>"; };
+		4F24B82F18A427500041AA04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Main.storyboard; sourceTree = "<group>"; };
+		4F24B83018A427500041AA04 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,16 +47,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4F24B81218A426E80041AA04 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4F24B81718A426E80041AA04 /* XCTest.framework in Frameworks */,
-				4F24B81918A426E80041AA04 /* UIKit.framework in Frameworks */,
-				4F24B81818A426E80041AA04 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -83,7 +54,6 @@
 			isa = PBXGroup;
 			children = (
 				4F24B7FD18A426E80041AA04 /* AMARadialView */,
-				4F24B81C18A426E80041AA04 /* AMARadialViewTests */,
 				4F24B7F618A426E80041AA04 /* Frameworks */,
 				4F24B7F518A426E80041AA04 /* Products */,
 			);
@@ -93,7 +63,6 @@
 			isa = PBXGroup;
 			children = (
 				4F24B7F418A426E80041AA04 /* AMARadialView.app */,
-				4F24B81518A426E80041AA04 /* AMARadialViewTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -114,10 +83,9 @@
 			children = (
 				4F24B80618A426E80041AA04 /* AMAAppDelegate.h */,
 				4F24B80718A426E80041AA04 /* AMAAppDelegate.m */,
-				4F24B80918A426E80041AA04 /* Main.storyboard */,
 				4F24B80C18A426E80041AA04 /* AMAViewController.h */,
 				4F24B80D18A426E80041AA04 /* AMAViewController.m */,
-				4F24B80F18A426E80041AA04 /* Images.xcassets */,
+				4F24B82C18A426FF0041AA04 /* Resources */,
 				4F24B7FE18A426E80041AA04 /* Supporting Files */,
 			);
 			path = AMARadialView;
@@ -134,22 +102,21 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		4F24B81C18A426E80041AA04 /* AMARadialViewTests */ = {
+		4F24B82C18A426FF0041AA04 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				4F24B82218A426E80041AA04 /* AMARadialViewTests.m */,
-				4F24B81D18A426E80041AA04 /* Supporting Files */,
+				4F24B82D18A427500041AA04 /* Base.lproj */,
+				4F24B83018A427500041AA04 /* Images.xcassets */,
 			);
-			path = AMARadialViewTests;
+			path = Resources;
 			sourceTree = "<group>";
 		};
-		4F24B81D18A426E80041AA04 /* Supporting Files */ = {
+		4F24B82D18A427500041AA04 /* Base.lproj */ = {
 			isa = PBXGroup;
 			children = (
-				4F24B81E18A426E80041AA04 /* AMARadialViewTests-Info.plist */,
-				4F24B81F18A426E80041AA04 /* InfoPlist.strings */,
+				4F24B82E18A427500041AA04 /* Main.storyboard */,
 			);
-			name = "Supporting Files";
+			path = Base.lproj;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -172,24 +139,6 @@
 			productReference = 4F24B7F418A426E80041AA04 /* AMARadialView.app */;
 			productType = "com.apple.product-type.application";
 		};
-		4F24B81418A426E80041AA04 /* AMARadialViewTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 4F24B82918A426E80041AA04 /* Build configuration list for PBXNativeTarget "AMARadialViewTests" */;
-			buildPhases = (
-				4F24B81118A426E80041AA04 /* Sources */,
-				4F24B81218A426E80041AA04 /* Frameworks */,
-				4F24B81318A426E80041AA04 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				4F24B81B18A426E80041AA04 /* PBXTargetDependency */,
-			);
-			name = AMARadialViewTests;
-			productName = AMARadialViewTests;
-			productReference = 4F24B81518A426E80041AA04 /* AMARadialViewTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -199,11 +148,6 @@
 				CLASSPREFIX = AMA;
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Andreas Maechler";
-				TargetAttributes = {
-					4F24B81418A426E80041AA04 = {
-						TestTargetID = 4F24B7F318A426E80041AA04;
-					};
-				};
 			};
 			buildConfigurationList = 4F24B7EF18A426E80041AA04 /* Build configuration list for PBXProject "AMARadialView" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -219,7 +163,6 @@
 			projectRoot = "";
 			targets = (
 				4F24B7F318A426E80041AA04 /* AMARadialView */,
-				4F24B81418A426E80041AA04 /* AMARadialViewTests */,
 			);
 		};
 /* End PBXProject section */
@@ -229,17 +172,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4F24B81018A426E80041AA04 /* Images.xcassets in Resources */,
+				4F24B83218A427500041AA04 /* Images.xcassets in Resources */,
 				4F24B80218A426E80041AA04 /* InfoPlist.strings in Resources */,
-				4F24B80B18A426E80041AA04 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4F24B81318A426E80041AA04 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4F24B82118A426E80041AA04 /* InfoPlist.strings in Resources */,
+				4F24B83118A427500041AA04 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,23 +191,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4F24B81118A426E80041AA04 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4F24B82318A426E80041AA04 /* AMARadialViewTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		4F24B81B18A426E80041AA04 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 4F24B7F318A426E80041AA04 /* AMARadialView */;
-			targetProxy = 4F24B81A18A426E80041AA04 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		4F24B80018A426E80041AA04 /* InfoPlist.strings */ = {
@@ -283,20 +202,12 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		4F24B80918A426E80041AA04 /* Main.storyboard */ = {
+		4F24B82E18A427500041AA04 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				4F24B80A18A426E80041AA04 /* Base */,
+				4F24B82F18A427500041AA04 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		4F24B81F18A426E80041AA04 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4F24B82018A426E80041AA04 /* en */,
-			);
-			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -400,48 +311,6 @@
 			};
 			name = Release;
 		};
-		4F24B82A18A426E80041AA04 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AMARadialView.app/AMARadialView";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "AMARadialView/AMARadialView-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "AMARadialViewTests/AMARadialViewTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Debug;
-		};
-		4F24B82B18A426E80041AA04 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AMARadialView.app/AMARadialView";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "AMARadialView/AMARadialView-Prefix.pch";
-				INFOPLIST_FILE = "AMARadialViewTests/AMARadialViewTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -459,14 +328,6 @@
 			buildConfigurations = (
 				4F24B82718A426E80041AA04 /* Debug */,
 				4F24B82818A426E80041AA04 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		4F24B82918A426E80041AA04 /* Build configuration list for PBXNativeTarget "AMARadialViewTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				4F24B82A18A426E80041AA04 /* Debug */,
-				4F24B82B18A426E80041AA04 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
