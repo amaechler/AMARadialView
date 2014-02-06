@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4F24B7F818A426E80041AA04 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F24B7F718A426E80041AA04 /* Foundation.framework */; };
+		4F24B7FA18A426E80041AA04 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F24B7F918A426E80041AA04 /* CoreGraphics.framework */; };
+		4F24B7FC18A426E80041AA04 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F24B7FB18A426E80041AA04 /* UIKit.framework */; };
+		4F24B80218A426E80041AA04 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4F24B80018A426E80041AA04 /* InfoPlist.strings */; };
+		4F24B80418A426E80041AA04 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F24B80318A426E80041AA04 /* main.m */; };
+		4F24B80818A426E80041AA04 /* AMAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F24B80718A426E80041AA04 /* AMAAppDelegate.m */; };
+		4F24B80B18A426E80041AA04 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F24B80918A426E80041AA04 /* Main.storyboard */; };
+		4F24B80E18A426E80041AA04 /* AMAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F24B80D18A426E80041AA04 /* AMAViewController.m */; };
+		4F24B81018A426E80041AA04 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F24B80F18A426E80041AA04 /* Images.xcassets */; };
+		4F24B81718A426E80041AA04 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F24B81618A426E80041AA04 /* XCTest.framework */; };
+		4F24B81818A426E80041AA04 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F24B7F718A426E80041AA04 /* Foundation.framework */; };
+		4F24B81918A426E80041AA04 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F24B7FB18A426E80041AA04 /* UIKit.framework */; };
+		4F24B82118A426E80041AA04 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4F24B81F18A426E80041AA04 /* InfoPlist.strings */; };
+		4F24B82318A426E80041AA04 /* AMARadialViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F24B82218A426E80041AA04 /* AMARadialViewTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4F24B81A18A426E80041AA04 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4F24B7EC18A426E80041AA04 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4F24B7F318A426E80041AA04;
+			remoteInfo = AMARadialView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4F24B7F418A426E80041AA04 /* AMARadialView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AMARadialView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F24B7F718A426E80041AA04 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4F24B7F918A426E80041AA04 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4F24B7FB18A426E80041AA04 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4F24B7FF18A426E80041AA04 /* AMARadialView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AMARadialView-Info.plist"; sourceTree = "<group>"; };
+		4F24B80118A426E80041AA04 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4F24B80318A426E80041AA04 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4F24B80518A426E80041AA04 /* AMARadialView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AMARadialView-Prefix.pch"; sourceTree = "<group>"; };
+		4F24B80618A426E80041AA04 /* AMAAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AMAAppDelegate.h; sourceTree = "<group>"; };
+		4F24B80718A426E80041AA04 /* AMAAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AMAAppDelegate.m; sourceTree = "<group>"; };
+		4F24B80A18A426E80041AA04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4F24B80C18A426E80041AA04 /* AMAViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AMAViewController.h; sourceTree = "<group>"; };
+		4F24B80D18A426E80041AA04 /* AMAViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AMAViewController.m; sourceTree = "<group>"; };
+		4F24B80F18A426E80041AA04 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4F24B81518A426E80041AA04 /* AMARadialViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AMARadialViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F24B81618A426E80041AA04 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		4F24B81E18A426E80041AA04 /* AMARadialViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AMARadialViewTests-Info.plist"; sourceTree = "<group>"; };
+		4F24B82018A426E80041AA04 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4F24B82218A426E80041AA04 /* AMARadialViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AMARadialViewTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4F24B7F118A426E80041AA04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F24B7FA18A426E80041AA04 /* CoreGraphics.framework in Frameworks */,
+				4F24B7FC18A426E80041AA04 /* UIKit.framework in Frameworks */,
+				4F24B7F818A426E80041AA04 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F24B81218A426E80041AA04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F24B81718A426E80041AA04 /* XCTest.framework in Frameworks */,
+				4F24B81918A426E80041AA04 /* UIKit.framework in Frameworks */,
+				4F24B81818A426E80041AA04 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4F24B7EB18A426E80041AA04 = {
+			isa = PBXGroup;
+			children = (
+				4F24B7FD18A426E80041AA04 /* AMARadialView */,
+				4F24B81C18A426E80041AA04 /* AMARadialViewTests */,
+				4F24B7F618A426E80041AA04 /* Frameworks */,
+				4F24B7F518A426E80041AA04 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4F24B7F518A426E80041AA04 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4F24B7F418A426E80041AA04 /* AMARadialView.app */,
+				4F24B81518A426E80041AA04 /* AMARadialViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4F24B7F618A426E80041AA04 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4F24B7F718A426E80041AA04 /* Foundation.framework */,
+				4F24B7F918A426E80041AA04 /* CoreGraphics.framework */,
+				4F24B7FB18A426E80041AA04 /* UIKit.framework */,
+				4F24B81618A426E80041AA04 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4F24B7FD18A426E80041AA04 /* AMARadialView */ = {
+			isa = PBXGroup;
+			children = (
+				4F24B80618A426E80041AA04 /* AMAAppDelegate.h */,
+				4F24B80718A426E80041AA04 /* AMAAppDelegate.m */,
+				4F24B80918A426E80041AA04 /* Main.storyboard */,
+				4F24B80C18A426E80041AA04 /* AMAViewController.h */,
+				4F24B80D18A426E80041AA04 /* AMAViewController.m */,
+				4F24B80F18A426E80041AA04 /* Images.xcassets */,
+				4F24B7FE18A426E80041AA04 /* Supporting Files */,
+			);
+			path = AMARadialView;
+			sourceTree = "<group>";
+		};
+		4F24B7FE18A426E80041AA04 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4F24B7FF18A426E80041AA04 /* AMARadialView-Info.plist */,
+				4F24B80018A426E80041AA04 /* InfoPlist.strings */,
+				4F24B80318A426E80041AA04 /* main.m */,
+				4F24B80518A426E80041AA04 /* AMARadialView-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4F24B81C18A426E80041AA04 /* AMARadialViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				4F24B82218A426E80041AA04 /* AMARadialViewTests.m */,
+				4F24B81D18A426E80041AA04 /* Supporting Files */,
+			);
+			path = AMARadialViewTests;
+			sourceTree = "<group>";
+		};
+		4F24B81D18A426E80041AA04 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4F24B81E18A426E80041AA04 /* AMARadialViewTests-Info.plist */,
+				4F24B81F18A426E80041AA04 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4F24B7F318A426E80041AA04 /* AMARadialView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F24B82618A426E80041AA04 /* Build configuration list for PBXNativeTarget "AMARadialView" */;
+			buildPhases = (
+				4F24B7F018A426E80041AA04 /* Sources */,
+				4F24B7F118A426E80041AA04 /* Frameworks */,
+				4F24B7F218A426E80041AA04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AMARadialView;
+			productName = AMARadialView;
+			productReference = 4F24B7F418A426E80041AA04 /* AMARadialView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4F24B81418A426E80041AA04 /* AMARadialViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F24B82918A426E80041AA04 /* Build configuration list for PBXNativeTarget "AMARadialViewTests" */;
+			buildPhases = (
+				4F24B81118A426E80041AA04 /* Sources */,
+				4F24B81218A426E80041AA04 /* Frameworks */,
+				4F24B81318A426E80041AA04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4F24B81B18A426E80041AA04 /* PBXTargetDependency */,
+			);
+			name = AMARadialViewTests;
+			productName = AMARadialViewTests;
+			productReference = 4F24B81518A426E80041AA04 /* AMARadialViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4F24B7EC18A426E80041AA04 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = AMA;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Andreas Maechler";
+				TargetAttributes = {
+					4F24B81418A426E80041AA04 = {
+						TestTargetID = 4F24B7F318A426E80041AA04;
+					};
+				};
+			};
+			buildConfigurationList = 4F24B7EF18A426E80041AA04 /* Build configuration list for PBXProject "AMARadialView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4F24B7EB18A426E80041AA04;
+			productRefGroup = 4F24B7F518A426E80041AA04 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4F24B7F318A426E80041AA04 /* AMARadialView */,
+				4F24B81418A426E80041AA04 /* AMARadialViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4F24B7F218A426E80041AA04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F24B81018A426E80041AA04 /* Images.xcassets in Resources */,
+				4F24B80218A426E80041AA04 /* InfoPlist.strings in Resources */,
+				4F24B80B18A426E80041AA04 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F24B81318A426E80041AA04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F24B82118A426E80041AA04 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4F24B7F018A426E80041AA04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F24B80818A426E80041AA04 /* AMAAppDelegate.m in Sources */,
+				4F24B80E18A426E80041AA04 /* AMAViewController.m in Sources */,
+				4F24B80418A426E80041AA04 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F24B81118A426E80041AA04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F24B82318A426E80041AA04 /* AMARadialViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4F24B81B18A426E80041AA04 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4F24B7F318A426E80041AA04 /* AMARadialView */;
+			targetProxy = 4F24B81A18A426E80041AA04 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4F24B80018A426E80041AA04 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4F24B80118A426E80041AA04 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4F24B80918A426E80041AA04 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4F24B80A18A426E80041AA04 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4F24B81F18A426E80041AA04 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4F24B82018A426E80041AA04 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4F24B82418A426E80041AA04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4F24B82518A426E80041AA04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4F24B82718A426E80041AA04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AMARadialView/AMARadialView-Prefix.pch";
+				INFOPLIST_FILE = "AMARadialView/AMARadialView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4F24B82818A426E80041AA04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AMARadialView/AMARadialView-Prefix.pch";
+				INFOPLIST_FILE = "AMARadialView/AMARadialView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		4F24B82A18A426E80041AA04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AMARadialView.app/AMARadialView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AMARadialView/AMARadialView-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "AMARadialViewTests/AMARadialViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		4F24B82B18A426E80041AA04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AMARadialView.app/AMARadialView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AMARadialView/AMARadialView-Prefix.pch";
+				INFOPLIST_FILE = "AMARadialViewTests/AMARadialViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4F24B7EF18A426E80041AA04 /* Build configuration list for PBXProject "AMARadialView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F24B82418A426E80041AA04 /* Debug */,
+				4F24B82518A426E80041AA04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F24B82618A426E80041AA04 /* Build configuration list for PBXNativeTarget "AMARadialView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F24B82718A426E80041AA04 /* Debug */,
+				4F24B82818A426E80041AA04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4F24B82918A426E80041AA04 /* Build configuration list for PBXNativeTarget "AMARadialViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F24B82A18A426E80041AA04 /* Debug */,
+				4F24B82B18A426E80041AA04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4F24B7EC18A426E80041AA04 /* Project object */;
+}
