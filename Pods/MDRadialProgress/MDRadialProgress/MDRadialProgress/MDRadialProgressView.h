@@ -8,8 +8,14 @@
 #import <UIKit/UIKit.h>
 
 
+static NSString *keyTheme = @"theme";
 static NSString *keyThickness = @"theme.thickness";
-
+static NSString *keyFrame     = @"frame";
+static NSString *keyLabelColor = @"theme.labelColor";
+static NSString *keyDropLabelShadow = @"theme.dropLabelShadow";
+static NSString *keyLabelShadowColor = @"theme.labelShadowColor";
+static NSString *keyLabelShadowOffset = @"theme.labelShadowOffset";
+static NSString *keyFont = @"theme.font";
 
 @class MDRadialProgressTheme;
 @class MDRadialProgressLabel;
@@ -28,6 +34,9 @@ static NSString *keyThickness = @"theme.thickness";
 // Whether the progress is drawn clockwise (YES) or anticlockwise (NO)
 @property (assign, nonatomic) BOOL clockwise;
 
+// Whether the progress is in indeterminate mode or not
+@property (assign, nonatomic) BOOL isIndeterminateProgress;
+
 // The index of the slice where the first completed step is.
 @property (assign, nonatomic) NSUInteger startingSlice;
 
@@ -36,5 +45,8 @@ static NSString *keyThickness = @"theme.thickness";
 
 // The label shown in the view's center.
 @property (strong, nonatomic) MDRadialProgressLabel *label;
+
+// The block that is used to update the label text when the progress changes.
+@property (nonatomic, copy) NSString *(^labelTextBlock)(MDRadialProgressView *progressView);
 
 @end

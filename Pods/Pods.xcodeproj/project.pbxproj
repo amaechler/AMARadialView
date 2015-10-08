@@ -1,0 +1,450 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F14B7293788E264E36602496027AAD8 /* MDRadialProgressView.h in Headers */ = {isa = PBXBuildFile; fileRef = 71D1DCE5873B3E0BD36360980D0A45C3 /* MDRadialProgressView.h */; };
+		628763349EDCABC185E485C79F1B1B77 /* MDRadialProgressLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 62045D3B02D31DCC4108BD3A98014038 /* MDRadialProgressLabel.h */; };
+		68361C2DC07E8ECCD3A359EF40F57601 /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F0C3CBC84EF89C01F8DC1778C976A54C /* Pods-dummy.m */; };
+		6F1ABB40B5827E61324F738E0F6F4CD1 /* MDRadialProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BE9E28ED845DDED536CC736AABBA415 /* MDRadialProgressView.m */; };
+		6F51687E4D2C6CA2379D3FF144A1A42B /* MDRadialProgressTheme.h in Headers */ = {isa = PBXBuildFile; fileRef = 26EC4282405DDF02EB51B0E929A90128 /* MDRadialProgressTheme.h */; };
+		894B11BE0EDFEF80B6CFBBE4AB6E56BE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5FE1AA85D5FA84A8C6AF702217B67B5 /* Foundation.framework */; };
+		8F78FE0FE631603A2F807F9FC6BCCEDB /* MDRadialProgress-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BDC948E7AA7CEED29E865934F0215F5 /* MDRadialProgress-dummy.m */; };
+		985627606697E2535EBA4C71C3E974A6 /* MDRadialProgressLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = B543A6CDDE4935D42D5E582627552E52 /* MDRadialProgressLabel.m */; };
+		A27BA3DE0BCEE2302E7232AAD2C6FF98 /* MDRadialProgressTheme.m in Sources */ = {isa = PBXBuildFile; fileRef = DADC217AC0B0EC8026491CF76B40C369 /* MDRadialProgressTheme.m */; };
+		BB73FEB24D2A80480DD101312EAAF877 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5FE1AA85D5FA84A8C6AF702217B67B5 /* Foundation.framework */; };
+		CF3F9B89759E28141E70DD0C26251B07 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 157ECAB12B5D5E3CDC48D6978741F851 /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C64517D1C80A7968399E186038E30E9C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7FE6F77ED1F5099FB619C127F9FF8B00;
+			remoteInfo = MDRadialProgress;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		157ECAB12B5D5E3CDC48D6978741F851 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		15A529C27057E4A57D259CBC6E6CE49C /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1BE9E28ED845DDED536CC736AABBA415 /* MDRadialProgressView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDRadialProgressView.m; path = MDRadialProgress/MDRadialProgress/MDRadialProgressView.m; sourceTree = "<group>"; };
+		26EC4282405DDF02EB51B0E929A90128 /* MDRadialProgressTheme.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDRadialProgressTheme.h; path = MDRadialProgress/MDRadialProgress/MDRadialProgressTheme.h; sourceTree = "<group>"; };
+		3AC4D5CF0A3175FF0EE0DB5B5919327F /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
+		62045D3B02D31DCC4108BD3A98014038 /* MDRadialProgressLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDRadialProgressLabel.h; path = MDRadialProgress/MDRadialProgress/MDRadialProgressLabel.h; sourceTree = "<group>"; };
+		641AE05DD55E5E6AC1590CD7B4A18F97 /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
+		71D1DCE5873B3E0BD36360980D0A45C3 /* MDRadialProgressView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDRadialProgressView.h; path = MDRadialProgress/MDRadialProgress/MDRadialProgressView.h; sourceTree = "<group>"; };
+		78FD5C1B651110C8B831D9D8ACD25D35 /* MDRadialProgress.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MDRadialProgress.xcconfig; sourceTree = "<group>"; };
+		7BDC948E7AA7CEED29E865934F0215F5 /* MDRadialProgress-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MDRadialProgress-dummy.m"; sourceTree = "<group>"; };
+		81F8DA189EC7A0778CA38A8C829EEEA6 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
+		B170DB1EED2633CCCBA76B4873EB2B62 /* MDRadialProgress-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "MDRadialProgress-Private.xcconfig"; sourceTree = "<group>"; };
+		B543A6CDDE4935D42D5E582627552E52 /* MDRadialProgressLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDRadialProgressLabel.m; path = MDRadialProgress/MDRadialProgress/MDRadialProgressLabel.m; sourceTree = "<group>"; };
+		B99B979C6767043C9708402F0C51D190 /* libMDRadialProgress.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMDRadialProgress.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9B2626E0FACE4F0D4C2DE291A509E57 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BEB2D73384DA80820E1238EB7B18EF24 /* MDRadialProgress-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MDRadialProgress-prefix.pch"; sourceTree = "<group>"; };
+		BF59BC15D23E1E1912C8F334E7236813 /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
+		DADC217AC0B0EC8026491CF76B40C369 /* MDRadialProgressTheme.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDRadialProgressTheme.m; path = MDRadialProgress/MDRadialProgress/MDRadialProgressTheme.m; sourceTree = "<group>"; };
+		F0C3CBC84EF89C01F8DC1778C976A54C /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
+		F5FE1AA85D5FA84A8C6AF702217B67B5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3BCF080CA1AEF8C9760E63DF952E64D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB73FEB24D2A80480DD101312EAAF877 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BA743605B4D1AFB5CAB15430FAD089A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				894B11BE0EDFEF80B6CFBBE4AB6E56BE /* Foundation.framework in Frameworks */,
+				CF3F9B89759E28141E70DD0C26251B07 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00FC04B06EEF8A155D545C321FDCC389 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				F5FE1AA85D5FA84A8C6AF702217B67B5 /* Foundation.framework */,
+				157ECAB12B5D5E3CDC48D6978741F851 /* QuartzCore.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				00FC04B06EEF8A155D545C321FDCC389 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				C08E951B1C10FED6AF2CB85F48765EDB /* Pods */,
+				CCA510CFBEA2D207524CDA0D73C3B561 /* Products */,
+				D2411A5FE7F7A004607BED49990C37F4 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		952EEBFAF8F7E620423C9F156F25A506 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				15A529C27057E4A57D259CBC6E6CE49C /* Pods-acknowledgements.markdown */,
+				BF59BC15D23E1E1912C8F334E7236813 /* Pods-acknowledgements.plist */,
+				F0C3CBC84EF89C01F8DC1778C976A54C /* Pods-dummy.m */,
+				641AE05DD55E5E6AC1590CD7B4A18F97 /* Pods-resources.sh */,
+				81F8DA189EC7A0778CA38A8C829EEEA6 /* Pods.debug.xcconfig */,
+				3AC4D5CF0A3175FF0EE0DB5B5919327F /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			path = "Target Support Files/Pods";
+			sourceTree = "<group>";
+		};
+		9807C1EBA86D40B200A0EC666BC1AD90 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				78FD5C1B651110C8B831D9D8ACD25D35 /* MDRadialProgress.xcconfig */,
+				B170DB1EED2633CCCBA76B4873EB2B62 /* MDRadialProgress-Private.xcconfig */,
+				7BDC948E7AA7CEED29E865934F0215F5 /* MDRadialProgress-dummy.m */,
+				BEB2D73384DA80820E1238EB7B18EF24 /* MDRadialProgress-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MDRadialProgress";
+			sourceTree = "<group>";
+		};
+		C08E951B1C10FED6AF2CB85F48765EDB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C149B94F784DB1A517D73AE1F8984677 /* MDRadialProgress */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C149B94F784DB1A517D73AE1F8984677 /* MDRadialProgress */ = {
+			isa = PBXGroup;
+			children = (
+				62045D3B02D31DCC4108BD3A98014038 /* MDRadialProgressLabel.h */,
+				B543A6CDDE4935D42D5E582627552E52 /* MDRadialProgressLabel.m */,
+				26EC4282405DDF02EB51B0E929A90128 /* MDRadialProgressTheme.h */,
+				DADC217AC0B0EC8026491CF76B40C369 /* MDRadialProgressTheme.m */,
+				71D1DCE5873B3E0BD36360980D0A45C3 /* MDRadialProgressView.h */,
+				1BE9E28ED845DDED536CC736AABBA415 /* MDRadialProgressView.m */,
+				9807C1EBA86D40B200A0EC666BC1AD90 /* Support Files */,
+			);
+			path = MDRadialProgress;
+			sourceTree = "<group>";
+		};
+		CCA510CFBEA2D207524CDA0D73C3B561 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B99B979C6767043C9708402F0C51D190 /* libMDRadialProgress.a */,
+				B9B2626E0FACE4F0D4C2DE291A509E57 /* libPods.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D2411A5FE7F7A004607BED49990C37F4 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				952EEBFAF8F7E620423C9F156F25A506 /* Pods */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		F92926762A68CAB7BC9CED9FE568BC3F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				628763349EDCABC185E485C79F1B1B77 /* MDRadialProgressLabel.h in Headers */,
+				6F51687E4D2C6CA2379D3FF144A1A42B /* MDRadialProgressTheme.h in Headers */,
+				3F14B7293788E264E36602496027AAD8 /* MDRadialProgressView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		7FE6F77ED1F5099FB619C127F9FF8B00 /* MDRadialProgress */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 241F3E166454F01D523B7DC83ABBBC4B /* Build configuration list for PBXNativeTarget "MDRadialProgress" */;
+			buildPhases = (
+				EB447F712D3F81D59E1105EA1E86C14A /* Sources */,
+				7BA743605B4D1AFB5CAB15430FAD089A /* Frameworks */,
+				F92926762A68CAB7BC9CED9FE568BC3F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MDRadialProgress;
+			productName = MDRadialProgress;
+			productReference = B99B979C6767043C9708402F0C51D190 /* libMDRadialProgress.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		957A1DE5C7DB1E2FFD698066520F1CD3 /* Pods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEE7BB3E28582B29782A7AA5A4140C81 /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildPhases = (
+				C93F85EB2DEE2738A3DEB080D649C5F4 /* Sources */,
+				3BCF080CA1AEF8C9760E63DF952E64D8 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9D31471D68D5885A4A663194626582E7 /* PBXTargetDependency */,
+			);
+			name = Pods;
+			productName = Pods;
+			productReference = B9B2626E0FACE4F0D4C2DE291A509E57 /* libPods.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = CCA510CFBEA2D207524CDA0D73C3B561 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7FE6F77ED1F5099FB619C127F9FF8B00 /* MDRadialProgress */,
+				957A1DE5C7DB1E2FFD698066520F1CD3 /* Pods */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C93F85EB2DEE2738A3DEB080D649C5F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68361C2DC07E8ECCD3A359EF40F57601 /* Pods-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB447F712D3F81D59E1105EA1E86C14A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F78FE0FE631603A2F807F9FC6BCCEDB /* MDRadialProgress-dummy.m in Sources */,
+				985627606697E2535EBA4C71C3E974A6 /* MDRadialProgressLabel.m in Sources */,
+				A27BA3DE0BCEE2302E7232AAD2C6FF98 /* MDRadialProgressTheme.m in Sources */,
+				6F1ABB40B5827E61324F738E0F6F4CD1 /* MDRadialProgressView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9D31471D68D5885A4A663194626582E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MDRadialProgress;
+			target = 7FE6F77ED1F5099FB619C127F9FF8B00 /* MDRadialProgress */;
+			targetProxy = C64517D1C80A7968399E186038E30E9C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1D5A7CA88509A755EC25DA457E699AE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B170DB1EED2633CCCBA76B4873EB2B62 /* MDRadialProgress-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MDRadialProgress/MDRadialProgress-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		45F83682E8E1A3E33A9E72B3210BDCDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3AC4D5CF0A3175FF0EE0DB5B5919327F /* Pods.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		4D4E3E7479E9698877D52B1E24261F56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81F8DA189EC7A0778CA38A8C829EEEA6 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		5CE5176205D06FF3FFE3DDDA9291E44B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		74857149DC1E0D599B8A01A78349A926 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F00A87A1DA4B5C34E2325CD35626C9F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B170DB1EED2633CCCBA76B4873EB2B62 /* MDRadialProgress-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MDRadialProgress/MDRadialProgress-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		241F3E166454F01D523B7DC83ABBBC4B /* Build configuration list for PBXNativeTarget "MDRadialProgress" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F00A87A1DA4B5C34E2325CD35626C9F3 /* Debug */,
+				1D5A7CA88509A755EC25DA457E699AE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CE5176205D06FF3FFE3DDDA9291E44B /* Debug */,
+				74857149DC1E0D599B8A01A78349A926 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEE7BB3E28582B29782A7AA5A4140C81 /* Build configuration list for PBXNativeTarget "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D4E3E7479E9698877D52B1E24261F56 /* Debug */,
+				45F83682E8E1A3E33A9E72B3210BDCDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
